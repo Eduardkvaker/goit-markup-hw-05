@@ -489,6 +489,7 @@ padding: 0;
 }
 .portfolio-cover-wrap{
     position: relative;
+    overflow: hidden;
 }
 .portfolio-cover-text{
     position: absolute;
@@ -509,6 +510,9 @@ padding: 0;
     display: flex;
 }
 .picture-1:hover .portfolio-cover-text{
+    transform: translateY(0);
+}
+.picture:hover .portfolio-cover-text{
     transform: translateY(0);
 }
 .right-picture-2{
